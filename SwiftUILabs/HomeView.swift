@@ -16,7 +16,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack{
-            WeatherApp(weather: weather)
+            CompactWeatherView(weather: weather)
             LargeWatherView(weather: weather)
             
         }

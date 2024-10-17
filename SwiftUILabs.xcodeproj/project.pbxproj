@@ -14,7 +14,7 @@
 		86D462C92CC06435007DB5DB /* SwiftUILabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D462C82CC06435007DB5DB /* SwiftUILabsTests.swift */; };
 		86D462D32CC06435007DB5DB /* SwiftUILabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D462D22CC06435007DB5DB /* SwiftUILabsUITests.swift */; };
 		86D462D52CC06435007DB5DB /* SwiftUILabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D462D42CC06435007DB5DB /* SwiftUILabsUITestsLaunchTests.swift */; };
-		86D462E22CC068C1007DB5DB /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D462E12CC068C1007DB5DB /* WeatherApp.swift */; };
+		86D462E22CC068C1007DB5DB /* CompactWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D462E12CC068C1007DB5DB /* CompactWeatherView.swift */; };
 		86DF11922CC085F100FDA27C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DF11912CC085F100FDA27C /* HomeView.swift */; };
 		86E34AA82CC07707000A55EC /* LargeWatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E34AA72CC07707000A55EC /* LargeWatherView.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		86D462CE2CC06435007DB5DB /* SwiftUILabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D462D22CC06435007DB5DB /* SwiftUILabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabsUITests.swift; sourceTree = "<group>"; };
 		86D462D42CC06435007DB5DB /* SwiftUILabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		86D462E12CC068C1007DB5DB /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		86D462E12CC068C1007DB5DB /* CompactWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactWeatherView.swift; sourceTree = "<group>"; };
 		86DF11912CC085F100FDA27C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		86E34AA72CC07707000A55EC /* LargeWatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeWatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 				86D462B72CC06428007DB5DB /* SwiftUILabsApp.swift */,
 				86D462B92CC06428007DB5DB /* ContentView.swift */,
 				86E34AA72CC07707000A55EC /* LargeWatherView.swift */,
-				86D462E12CC068C1007DB5DB /* WeatherApp.swift */,
+				86D462E12CC068C1007DB5DB /* CompactWeatherView.swift */,
 				86D462BB2CC06435007DB5DB /* Assets.xcassets */,
 				86D462BD2CC06435007DB5DB /* Preview Content */,
 				86DF11912CC085F100FDA27C /* HomeView.swift */,
@@ -270,7 +270,7 @@
 				86E34AA82CC07707000A55EC /* LargeWatherView.swift in Sources */,
 				86D462B82CC06428007DB5DB /* SwiftUILabsApp.swift in Sources */,
 				86DF11922CC085F100FDA27C /* HomeView.swift in Sources */,
-				86D462E22CC068C1007DB5DB /* WeatherApp.swift in Sources */,
+				86D462E22CC068C1007DB5DB /* CompactWeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
